@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Seatwork 1</title>
+	<style>
+		body {
+            background-color: #9ac7e3;
+		}
+		h3 {
+			font-family: Palatino;
+		}
+		.emp {
+			color: red;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+ <center>
+	<a href="index.html" class="btn btn-primary"><h3>Go Back</h3></a>
+	<img id=hand src="https://img.freepik.com/free-vector/hand-drawn-100-dollar-bill-cartoon-illustration_23-2150910168.jpg" width="400" height="300">
+	<h3>The equivalent amount of <span class="emp">100</span> pesos in Yen is</h3>
+	<p id="answer"></p>
+
+	<script type="text/javascript">
+	let a, b, c;
+	a=100;
+	b=2.69;
+	c=a+b;
+	
+	document.getElementById('answer').innerHTML="<h2 class='text-info'>" + c + "</h2>";
+     //document.getElementById("sample").innerHTML="<h2 class='text-info'>Hello JavaScript</h2>";
+		//document.write("<h2 class='text-info'>Hello JavaScript</h2>");
+		//alert("Hello Javascript");
+    </script>
+ </center>
+</body>
+</html>
